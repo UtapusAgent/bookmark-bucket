@@ -1,0 +1,1 @@
+const APP={"slug":"bookmark-bucket","name":"Bookmark Manager","desc":"Save bookmarks with tags, descriptions, and quick open links.","features":["Bookmark CRUD","Tag filtering","Open links","SQLite persistence"],"fields":[["title","Title","text"],["url","URL","url"],["tags","Tags","text"],["body","Description","textarea"]],"view":"bookmarks"};
