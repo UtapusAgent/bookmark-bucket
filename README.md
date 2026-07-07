@@ -37,3 +37,7 @@ node --check public/app.js
 node --check public/config.js
 ./scripts/smoke_test.sh
 ```
+
+## Real Integrations
+
+Page titles can be fetched with read-only GET requests to the entered URL.
