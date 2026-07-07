@@ -16,10 +16,10 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Bookmark CRUD
-- Tag filtering
+- Bookmark manager
+- Read-only page title fetch
+- Tags and search
 - Open links
-- SQLite persistence
 
 ## Use Cases
 
