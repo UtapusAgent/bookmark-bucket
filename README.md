@@ -41,3 +41,10 @@ node --check public/config.js
 ## Real Integrations
 
 Page titles can be fetched with read-only GET requests to the entered URL.
+
+## Customer Deployment Notes
+
+- Run with Docker Compose for persistence and restart behavior.
+- Back up `data/app.db` or use the in-app JSON export before upgrades.
+- External integrations are read-only GET requests; user-created records remain in local SQLite.
+- The container includes a healthcheck at `/health`.
