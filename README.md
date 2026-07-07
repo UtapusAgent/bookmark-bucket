@@ -1,6 +1,6 @@
 # Bookmark Manager
 
-Save links with tags.
+Save bookmarks with tags, descriptions, and quick open links.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Add bookmark
-- Tag filter
+- Bookmark CRUD
+- Tag filtering
 - Open links
-- Local persistence
+- SQLite persistence
 
 ## Use Cases
 
-- Research tracking
-- Link collection
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
